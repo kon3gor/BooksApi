@@ -17,5 +17,4 @@ WORKDIR "$APP_HOME"
 
 COPY --from=builder "$APP_HOME"/booksapi $APP_HOME
 
-EXPOSE 8081
 CMD ["./booksapi"]
